@@ -8,6 +8,13 @@ Powershell automation script designed for my 3505 class at the University of Uta
 - Remote Docker Extension for Visual Studio Code: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
 - PowerShell
 
+# How to Run Container in Visual Studio:
+1. Open Visual Studio
+2. Go to File -> Open Folder -> DockerImages/assignments found in documents folder 
+3. Press F1 and type remote-container to open file (dont select any folders inside assignments.
+4. Docker Container for Visual Studio will then build and run.
+5. You will know when you see root@'some-number'# in the terminal in visual studio.
+
 # Docker-Compose-Commands
 How to build your docker-container incase you forget. Follow these commands, and make sure you are in your DockerImages Directory.
 
