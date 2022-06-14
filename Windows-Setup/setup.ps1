@@ -9,11 +9,6 @@ Version: 0.2
 wsl --install
 wsl --set-default-version 2 
 
-#Install Docker Desktop
-$DockerInstaller = Join-Path $Evn:Temp InstallDocker.msi
-Invoke-WebRequest https://download.docker.com/win/stable/InstallDocker.msi
-msiexec -i $DockerInstaller -quiet
-
 #Write Required Files for Docker Container
 New-Item -Path $Home\Documents\DockerImages -ItemType Directory
 New-File -Path $Home\Documents\DockerImages\assignments -ItemType Directory
