@@ -1,5 +1,7 @@
-# Docker-Container-Setup
-Powershell automation script designed for my 3505 class at the University of Utah. Installs all components required for Docker to run on a windows computer, configuring Windows subsystem for linux allowing docker containers to run linux distributions. Installed Docker if the users computer does not already have it, and creates required docker files and directories to be used by docker. For live testing, I have included a simple volume for the docker container to use to which users can store and create files live that the docker container will then use for storing of persistent files. Powershell will then run all commands required for docker to build and then run the container.
+# C++ & Rust Development Docker Image
+Designed to automate and unify docker image setup for my CS 3505 class at the University of Utah. Scripts are designed for both MacOS, and Windows enviorments. The scripts will automatically create the nessesary file structure needed for a persistent volumn that docker can then use for saving of course work. The script will automatically create the Dockerfile with all nessesary packages needed for the development enviorment; including, make, gcc, gdb, git, vim or nano, and bash-completion.
+
+## Prerequisites that need to be installed
 
 # Tech-Stack
 - Windows Subsystem for Linux
