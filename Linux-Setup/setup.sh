@@ -2,11 +2,10 @@
 # Author: Ashton Foulger, https://github.com/FouL06
 # Organization: N/A
 # Date: 6/15/22
-# Version: 0.2
+# Version: 0.1
 
 # Create assignments Directory
 cd ~
-cd Documents/
 mkdir DockerImages
 cd DockerImages/
 mkdir assignments
