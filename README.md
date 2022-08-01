@@ -1,4 +1,4 @@
-# C++ & Rust Development Docker Image
+# C++ Development Docker Image
 
 Designed to automate and unify docker image setup for my CS 3505 class at the University of Utah. Scripts are designed for both MacOS,Windows, and Linux enviroments. The scripts will automatically create the nessesary file structure needed for a persistent volumn that docker can then use for saving of course work. The script will automatically create the Dockerfile with all nessesary packages needed for the development enviroment; including, make, gcc, gdb, git, vim or nano, and bash-completion.
 
