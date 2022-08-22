@@ -13,14 +13,14 @@ Designed to automate and unify docker image setup for my CS 3505 class at the Un
 
 <b>Note:</b> If on Windows please make sure you have cpu virtualization turned on in the bios and then proceed with these steps
 
-Windows
+#### Windows
 
 1. Install VScode, Remote-Containers, and Docker Desktop
 2. In powershell run `.\setup.ps1`
 3. VScode should have already started up for you, press F1 and type in `Remote-Containers: Open Configuration File...`
 4. Select `From 'Dockerfile'` <b>Note:</b> if a popup comes up in VScode about reopening the devcontainer file click Reopen to start working inside the docker container.
 
-Mac
+#### Mac
 
 1. Install VScode, Remote-Containers, and Docker Desktop
 2. In a terminal make the `setup.sh` and executable by running `chmod +x setup.sh`
@@ -28,7 +28,7 @@ Mac
 4. VScode should have already started up for you, press F1 and type in `Remote-Containers: Open Configuration File...`
 5. Select `From 'Dockerfile'` <b>Note:</b> if a popup comes up in VScode about reopening the devcontainer file click Reopen to start working inside the docker container.
 
-Linux
+#### Linux
 
 1. Install, VScode, Remote-Containers, and Docker Desktop \*(if nessesary)
 2. In a terminal make the `setup.sh` and executable by running `chmod +x setup.sh`
